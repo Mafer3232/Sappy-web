@@ -1,0 +1,521 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+hr{
+	background-color:white;
+	border:none;
+	height: 2px;
+	
+
+	
+	
+
+	
+}
+body{
+	background-color: #5F66B4;
+	
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+.contenedor{
+	position:relative;
+
+	background-color: #828cfb;
+	
+	
+	
+	
+	
+}
+.fila{
+	
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	/*clear: both; */
+	display: table;
+	
+}
+[class*="col-"]{
+	float: left;
+	list-style-type: none;
+
+}
+	
+
+header{
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+header #logo >a>h5{
+	
+	visibility: hidden;
+	margin-top: 10px;
+	height: 1120px;
+}
+header #logo{
+	background-image:url("../imagenes/logo2.png");
+	background-size:120px;
+	background-position: 0px 12px;
+	
+  	height:80px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+}
+header #logo:hover{
+	background-image:url("../imagenes/logo-2.png");
+	
+	background-repeat: no-repeat;
+}
+header #Bienvenido {
+	padding-top: 25px;
+	float: left;
+  	font-size: 20px;
+	text-align: left;
+	line-height: 38px;
+	font-family: Myriad pro;
+	color:white;
+	
+	
+	
+}
+
+header center#Separador{
+	
+	width: 1px;
+	background-color: white;
+	height: 40px;
+	
+	
+	
+	margin: 25px auto;
+	
+}
+
+header center a{
+	padding-top: 25px;
+	font-size:20px;
+	font-family: Myriad pro;
+	color:white;
+	height: auto;
+	
+	
+}
+header center#Inicio {
+	float:right;
+	
+	padding: 33px 0px 0px 0px;
+	
+	
+}
+header center#Registro a{
+	float:left;
+	margin-left: 0;
+	padding: 33px 15px 0px 0px;
+	
+	
+}
+header input{
+	line-height: 35px;
+	width: 100%;
+	border-color: #ffd966;
+	float: right;
+	margin-right: 0px;
+	margin-top: 25px;
+	object-fit: contain;
+}
+header input[type=text]{
+	border-radius: 20px;
+
+	font-size: 15px;
+	font-family: Myriad pro;
+	background-color: white;
+	background-image: url("../imagenes/iconsearch.png");
+	background-position: 10px 11px; 
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 28px;
+	
+	height: 40px;
+	
+}
+header #banner{
+	width: auto;
+	height: auto;
+	margin-left: -10px;
+	margin-right: -10px;
+	
+}
+header #banner img{
+	object-fit: contain;
+	width: 100%;
+	position: relative;
+	
+
+}
+
+#textobanner h1{
+	float:left;
+	
+	
+	color:#828cfb;
+	font-size:80px;
+
+}
+#textobanner h3{
+
+	
+	font-size: 20px;
+	font-family: Myriad pro;
+	font-weight: normal;
+	color:grey;
+	float: left;
+
+}
+#textobanner{
+	padding-top: 20px;
+	float: left;
+	position: absolute;
+	margin-left: 0px;
+}
+.banner1{
+	float: left;
+}
+.banner2{
+	
+	float: left;
+	
+}
+
+
+/*nav*/
+
+nav{
+	z-index: 100;/*para que salga encima del section*/
+	padding: 15px;
+	background-color: #828cfb;
+	position: relative;
+
+}
+nav ul>li{
+	padding: 10px;
+	text-align: center;
+
+	
+}
+nav ul li a{
+	display: block;
+	font-family: Myriad pro;
+	color: white;
+  	line-height: 48px;
+	font-weight: normal;
+	font-size: 25px;
+}
+  
+.navprimero{
+	display: none;
+	margin-left: -10px;
+	position:absolute;
+}/*poner position*/
+
+.navpeque{
+	display: none; 
+	
+	position:static;
+}
+
+nav ul li:hover> ul{
+	display:block;
+	
+}
+
+
+nav ul li ul li {
+	clear: both;
+  	width: 100%;
+	
+	background-color: #ffd966;
+	list-style: none;
+	
+	
+}
+nav ul ul>li>a{
+	color:#828cfb;
+	text-align: left;
+	height: auto;
+	line-height: 26px;
+}
+nav ul li{
+	position:relative;
+}
+
+
+
+
+nav >ul>li>a:hover{
+	color: #ffd966;
+	text-decoration-line: underline;
+	text-underline-position: under;
+}
+nav ul li a:hover{
+	color: #ffd966;
+}
+nav ul ul :hover{
+	
+	background-color: #e8505b;	
+}
+nav>ul >li>a:active{
+	color: #e8505b;
+}
+
+
+
+/*section*/
+section{
+	padding-top: 20px;
+	z-index: 10;/*para que aparezca abajo del nav*/
+	background-color: #EFF0FF;
+	
+		
+	
+}
+
+
+#blog-title h2{
+	font-size: 50px;
+	
+	color:#828cfb;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	font-weight: bolder;
+}
+#blog-title h5{
+	font-size: 20px;
+	color:grey;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	font-weight: 200;
+}
+
+.post{
+	margin-top: 10px;
+	width: 100%;
+	padding: 10px;
+	
+	margin-bottom:20px;
+}
+.post a{
+	color:#828cfb;
+}
+
+#blog-contenido ul{
+	list-style: none;
+
+
+
+}
+article{
+	padding: 10px;
+	background-color: white;
+	padding-bottom: 40px;
+	
+	
+	width: 100%;
+}
+
+article h3{
+	font-size: 25px;
+	color:#828cfb;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 100%;
+}
+article img{
+	margin-top:0px;
+	margin-bottom: 10px;
+	display: block;
+	width: 100%;
+	object-fit: contain;
+}
+article h5{
+	color:#828cfb;
+	font-size: 17px;
+	font-weight: 200;
+	
+}
+article p{
+	font-family: Myriad pro;
+	margin-top: 5px;
+	color:#2B2B2B;
+	font-size:20px;
+}
+
+footer{
+	background-color: #ffd966;
+	padding: 10px;
+}
+footer #secciones{
+	
+	float: left;
+  	
+	text-align: left;
+	line-height: 38px;
+	
+	color:#828cfb;
+	
+}
+footer #secciones h5, #Enlaces h5, #Idioma h5, #Conecta h5{
+	font-size:21px;
+}
+footer #secciones ul li , #Enlaces ul li, #Idioma ul li, #Conecta ul li, #Conecta ul li h6{
+	list-style: none;
+	line-height: 25px;
+	font-size: 18px;
+	font-family: Myriad pro;
+	font-weight: normal;
+}
+footer #secciones ul li a, #Enlaces ul li a{
+	color:#828cfb;
+	
+}
+
+
+footer #Enlaces{
+	
+	float: left;
+  	
+	text-align: left;
+	line-height: 38px;
+	
+	color:#828cfb;
+	margin-bottom: 80px;
+	
+}
+footer #Idioma{
+	
+	float: left;
+  	
+	text-align: left;
+	line-height: 38px;
+	
+	color:#828cfb;
+	
+}
+#Idioma ul li {
+	background-color: white;
+	padding:10px;
+	width: 120px;
+	
+	border-radius: 5px;
+}
+footer #Conecta{
+	float: left;
+	text-align: left;
+	line-height: 38px;
+	
+	color:#828cfb;
+}
+footer #redes{
+	margin-top:50px;
+	margin-left:0px;
+}
+footer #redes ul li{
+	float: left;
+	margin-right:-10px;
+	
+}
+footer #redes ul li img{
+	width: 50%;
+}
+/*PATRÒN DE FILAS Y COLUMNAS EN CSS*/
+
+/*=======PANTALLA LARGE (lg)===========*/
+/*este punto de quiebre es cuando el mínimo de ancho es de 1200 px y todo este conjunto de columnas lo metemos dentro de las llaves*/
+@media(min-width:1200px){
+
+	.col-lg-12{width: 100%;}
+	.col-lg-11{width: 91.66666667%;}
+	.col-lg-10{width: 83.33333333%;}
+	.col-lg-9{width: 75%;}
+	.col-lg-8{width: 66.66666667%;}
+	.col-lg-7{width: 58.33333333%;}
+	.col-lg-6{width: 50%;}
+	.col-lg-5{width: 41.66666667%;}
+	.col-lg-4{width: 33.33333333%;}
+	.col-lg-3{width: 25%;}
+	.col-lg-2{width: 16.66666667%;}
+	.col-lg-1{width: 8.33333333%;}
+	.col-lg-0{display:none;}
+
+		
+}
+/*=======PANTALLA MEDIANA (md)===========*/
+/*este punto de quiebre es cuando el máximo de ancho es de 1199px y el mínimo de ancho es de 992px y todo este conjunto de columnas lo metemos dentro de las llaves*/
+@media(max-width:1199px) and (min-width:992px){
+
+	.col-md-12{width: 100%;}
+	.col-md-11{width: 91.66666667%;}
+	.col-md-10{width: 83.33333333%;}
+	.col-md-9{width: 75%;}
+	.col-md-8{width: 66.66666667%;}
+	.col-md-7{width: 58.33333333%;}
+	.col-md-6{width: 50%;}
+	.col-md-5{width: 41.66666667%;}
+	.col-md-4{width: 33.33333333%;}
+	.col-md-3{width: 25%;}
+	.col-md-2{width: 16.66666667%;}
+	.col-md-1{width: 8.33333333%;}
+	.col-md-0{display:none;}
+	
+}
+/*=======PANTALLA SMALL (TABLET) (sm)===========*/
+/*este punto de quiebre es cuando el máximo de ancho es de 991px y el mínimo de ancho es de 768px y todo este conjunto de columnas lo metemos dentro de las llaves*/
+@media(max-width:991px) and (min-width:768px){
+
+	.col-sm-12{width: 100%;}
+	.col-sm-11{width: 91.66666667%;}
+	.col-sm-10{width: 83.33333333%;}
+	.col-sm-9{width: 75%;}
+	.col-sm-8{width: 66.66666667%;}
+	.col-sm-7{width: 58.33333333%;}
+	.col-sm-6{width: 50%;}
+	.col-sm-5{width: 41.66666667%;}
+	.col-sm-4{width: 33.33333333%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-2{width: 16.66666667%;}
+	.col-sm-1{width: 8.33333333%;}
+	.col-sm-0{display:none;}
+	
+}
+/*=======PANTALLA EXTRA SMALL (PHONES) (xs)===========*/
+/*este punto de quiebre es cuando el máximo de ancho es de 767px y todo este conjunto de columnas lo metemos dentro de las llaves*/
+@media(max-width:767px){
+
+	.col-xs-12{width: 100%;}
+	.col-xs-11{width: 91.66666667%;}
+	.col-xs-10{width: 83.33333333%;}
+	.col-xs-9{width: 75%;}
+	.col-xs-8{width: 66.66666667%;}
+	.col-xs-7{width: 58.33333333%;}
+	.col-xs-6{width: 50%;}
+	.col-xs-5{width: 41.66666667%;}
+	.col-xs-4{width: 33.33333333%;}
+	.col-xs-3{width: 25%;}
+	.col-xs-2{width: 16.66666667%;}
+	.col-xs-1{width: 8.33333333%;}
+	.col-xs-0{display:none;}
+	
+}
